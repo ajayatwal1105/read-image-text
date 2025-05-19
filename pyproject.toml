@@ -1,0 +1,16 @@
+[project]
+name = "read-impge-text"
+version = "0.1.0"
+description = "Extract text from scanned PDFs and prepare for RAG pipelines"
+authors = [{ name = "Ajay Atwal", email = "ajay.atwal@emerson.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "pytesseract",
+    "pdf2image",
+    "pillow",
+]
+
+
+ 
